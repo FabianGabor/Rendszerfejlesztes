@@ -10,6 +10,28 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
+
 }
+/*
+test {
+    filter {
+        //specific test class, this can match 'SomeTest' class and corresponding method under any package
+        //includeTestsMatching "FaktorialisTest()"
+        includeTestsMatching 'com.fabiangabor.test.*'
+    }
+}
+ */
+
+
+
+test {
+    useJUnitPlatform {
+        includeEngines 'junit-jupiter'
+    }
+}
+

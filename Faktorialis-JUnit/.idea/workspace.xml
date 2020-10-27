@@ -22,7 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="370103b6-a6af-4129-aee5-66a76e0fb13e" name="Default Changelist" comment="" />
+    <list default="true" id="370103b6-a6af-4129-aee5-66a76e0fb13e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Faktorialis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Faktorialis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiangabor/Faktorialis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FaktKivetel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiangabor/FaktKivetel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FaktorialisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fabiangabor/test/FaktorialisTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +52,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+  </component>
   <component name="ProjectId" id="1j8KM5X5mB13w611AhC1wRhQCLB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,11 +65,55 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fabiangabor" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaktorialisTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FaktorialisTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FaktorialisTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +125,7 @@
       <updated>1603180228490</updated>
       <workItem from="1603180230032" duration="666000" />
       <workItem from="1603183102053" duration="880000" />
+      <workItem from="1603783673007" duration="4121000" />
     </task>
     <servers />
   </component>
@@ -86,14 +145,58 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1400" height="656" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603787812577">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="100" y="100" width="1400" height="656" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.856@0.0.1600.856" timestamp="1603787812577" />
+    <state x="613" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1603785554844">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="613" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.856@0.0.1600.856" timestamp="1603785554844" />
+    <state x="538" y="205" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1603787093233">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="538" y="205" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.856@0.0.1600.856" timestamp="1603787093233" />
+    <state x="582" y="291" width="477" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603787095573">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="582" y="291" width="477" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.856@0.0.1600.856" timestamp="1603787095573" />
+    <state x="544" y="117" width="502" height="623" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603784280305">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="544" y="117" width="502" height="623" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.856@0.0.1600.856" timestamp="1603784280305" />
     <state x="588" y="171" key="FileChooserDialogImpl" timestamp="1603184458662">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
     <state x="588" y="171" key="FileChooserDialogImpl/0.0.1600.856@0.0.1600.856" timestamp="1603184458662" />
+    <state width="1554" height="268" key="GridCell.Tab.0.bottom" timestamp="1603787777175">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state width="1554" height="268" key="GridCell.Tab.0.bottom/0.0.1600.856@0.0.1600.856" timestamp="1603787777175" />
+    <state width="1554" height="268" key="GridCell.Tab.0.center" timestamp="1603787777174">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state width="1554" height="268" key="GridCell.Tab.0.center/0.0.1600.856@0.0.1600.856" timestamp="1603787777174" />
+    <state width="1554" height="268" key="GridCell.Tab.0.left" timestamp="1603787777173">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state width="1554" height="268" key="GridCell.Tab.0.left/0.0.1600.856@0.0.1600.856" timestamp="1603787777173" />
+    <state width="1554" height="268" key="GridCell.Tab.0.right" timestamp="1603787777175">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state width="1554" height="268" key="GridCell.Tab.0.right/0.0.1600.856@0.0.1600.856" timestamp="1603787777175" />
     <state x="302" y="62" key="SettingsEditor" timestamp="1603184292943">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
     <state x="302" y="62" key="SettingsEditor/0.0.1600.856@0.0.1600.856" timestamp="1603184292943" />
+    <state x="602" y="207" key="chooseDestDirectoryDialog" timestamp="1603786983810">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="602" y="207" key="chooseDestDirectoryDialog/0.0.1600.856@0.0.1600.856" timestamp="1603786983810" />
+    <state x="538" y="199" key="extract.method.dialog" timestamp="1603786057560">
+      <screen x="0" y="0" width="1600" height="856" />
+    </state>
+    <state x="538" y="199" key="extract.method.dialog/0.0.1600.856@0.0.1600.856" timestamp="1603786057560" />
     <state x="394" y="19" width="802" height="819" key="new project wizard" timestamp="1603184528026">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
