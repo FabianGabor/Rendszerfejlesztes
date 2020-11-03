@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fabiangabor.test.FaktorialisTest" tests="4" skipped="0" failures="2" errors="0" timestamp="2020-10-27T08:37:27" hostname="REACTOR-II" time="0.284">
+<testsuite name="com.fabiangabor.test.FaktorialisTest" tests="4" skipped="0" failures="2" errors="0" timestamp="2020-10-27T08:45:06" hostname="REACTOR-II" time="0.089">
   <properties/>
-  <testcase name="faktNegativ()" classname="com.fabiangabor.test.FaktorialisTest" time="0.036">
+  <testcase name="faktNegativ()" classname="com.fabiangabor.test.FaktorialisTest" time="0.053">
     <failure message="com.fabiangabor.FaktKivetel: ne negativ" type="com.fabiangabor.FaktKivetel">com.fabiangabor.FaktKivetel: ne negativ
 	at com.fabiangabor.Faktorialis.faktorialis(Faktorialis.java:12)
 	at com.fabiangabor.test.FaktorialisTest.faktNegativ(FaktorialisTest.java:51)
@@ -95,7 +95,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="fakt0()" classname="com.fabiangabor.test.FaktorialisTest" time="0.238">
+  <testcase name="fakt0()" classname="com.fabiangabor.test.FaktorialisTest" time="0.015">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;23&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;23&gt; but was: &lt;1&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
 	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
@@ -193,7 +193,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="fakt5()" classname="com.fabiangabor.test.FaktorialisTest" time="0.003"/>
+  <testcase name="fakt5()" classname="com.fabiangabor.test.FaktorialisTest" time="0.006"/>
   <testcase name="faktNagy()" classname="com.fabiangabor.test.FaktorialisTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
